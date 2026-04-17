@@ -2,7 +2,9 @@ https://github.com/Blujaytech/expence-eks
 
 cd expense-k8/
 ls
+
 kubectl apply -f namespace.yaml
+
 kubectl get ns
 
 cd mysql/
