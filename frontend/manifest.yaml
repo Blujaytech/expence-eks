@@ -117,7 +117,7 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: joindevops/frontend:v1
+        image: blujaytech/frontend:v1
         resources:
           requests:
             cpu: 100m
@@ -180,4 +180,4 @@ spec:
     name: frontend # route traffic to the awesome-service
     port: 80
   targetGroupARN: arn:aws:elasticloadbalancing:us-east-1:315069654700:targetgroup/expense-dev/3a568c998a755e02
-  targetType: ip
+  targetType: LoadBalancer
