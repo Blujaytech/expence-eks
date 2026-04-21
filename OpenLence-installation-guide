@@ -1,0 +1,27 @@
+Step 1: Install aws configure in command promnt or inside the server.
+ AccessKey : AKAYI123456JYRSLUZLL
+ Secret key : ggyesawcfvgbthujiklojhg5678uuydswe
+ Region : us-east-1
+
+Step 2: Install OpenLens
+For Linux (AppImage)
+
+wget https://github.com/MuhammedKalkan/OpenLens/releases/latest/download/OpenLens-*.AppImage
+chmod +x OpenLens-*.AppImage
+./OpenLens-*.AppImage
+
+(or)
+
+https://github.com/MuhammedKalkan/OpenLens/releases/download/v6.5.2-366/OpenLens.6.5.2-366.msi
+
+(or) in command prompt(CMD) give command as $ winget install opelens
+
+Step 3: Connect Kubernetes Cluster
+
+Once OpenLens is launched:
+
+It automatically detects clusters from:
+
+~/.kube/config
+
+add kube/config file in OpenLence it will seenk your eks cluster details.
